@@ -229,7 +229,14 @@
         <div class="footer-image d-flex justify-content-center">
           <img src="../../../assets/images/footer.png" alt="Engage Bakery">
         </div>
-        <p class="copyright">Copyright 2023. All rights reserved.</p>
+        <p class="copyright d-flex justify-content-center">
+          Copyright &copy; <span id="current-year"></span>. Family Bakery All rights reserved.
+        </p>
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+          });
+        </script>
 
         <div class="social-icons">
           <a href="#" class="icon-facebook"><i class="fa fa-facebook"></i></a>
