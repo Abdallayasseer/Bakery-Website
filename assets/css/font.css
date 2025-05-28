@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Alegreya-Bold';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-Bold.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-Regular';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-Regular.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-Medium';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-Medium.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-SemiBold';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-SemiBold.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-BoldItalic';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-BoldItalic.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-Italic';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-Italic.ttf') 
+}
+
+@font-face {
+  font-family: 'Alegreya-MediumItalic';
+  src: url('../font/Alegreya/Alegreya/static/Alegreya-MediumItalic.ttf') 
+}
+
+@font-face {
+  font-family: 'NotoSansArabic-Bold';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-Bold.ttf') 
+}
+
+@font-face {
+  font-family: 'NotoSansArabic-Regular';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-Regular.ttf') 
+}   
+
+@font-face {
+  font-family: 'NotoSansArabic-Medium';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-Medium.ttf') 
+}
+
+@font-face {
+  font-family: 'NotoSansArabic-SemiBold';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-SemiBold.ttf') 
+}
+
+@font-face {
+  font-family: 'NotoSansArabic-Regular';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-Regular.ttf') 
+}
+
+@font-face {
+  font-family: 'NotoSansArabic-Medium';
+  src: url('../font/Alegreya/Noto_Sans_Arabic/static/NotoSansArabic-Medium.ttf') 
+}

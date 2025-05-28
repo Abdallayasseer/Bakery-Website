@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Engage Bakery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&family=Alegreya+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg z-3 position-fixed top-0 w-100" data-header>
+            <div class="container">
+                <a class="navbar-brand" href="../../../index.html">
+                    <img src="../../../logo.png" alt="Bakery Logo" id="logo-img" class="img-fluid"
+                        style="max-height: 48px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../About/index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Our Offer/offer.html">Our Offer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Contact/content.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="../Sign-Login/sign.html" class="btn btn-primary ms-2">Login</a>
+                        <a href="../Sign-Login/sign.html" class="btn btn-secondary ms-2">Register</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4">Contact</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-8">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="card-title mb-4">Contact Form</h3>
+
+                            <form id="contact-form" class="needs-validation" novalidate>
+                                <div class="row g-3 mb-3">
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name"
+                                            required>
+                                        <div class="invalid-feedback">Please enter your name</div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="email" name="email" id="email" class="form-control"
+                                            placeholder="Email" required>
+                                        <div class="invalid-feedback">Please enter a valid email</div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="text" id="subject" name="subject" class="form-control"
+                                        placeholder="Subject" required>
+                                    <div class="invalid-feedback">Please enter a subject</div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <textarea class="form-control" id="message" name="message" rows="6"
+                                        placeholder="Message" required></textarea>
+                                    <div class="invalid-feedback">Please enter your message</div>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary px-4 py-2">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h3 class="card-title mb-3">Contact Information</h3>
+                            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
+                                dapibus leo.</p>
+                            <p class="fw-bold">Our contact details:</p>
+
+                            <ul class="list-unstyled">
+                                <li class="d-flex mb-3">
+                                    <i class="fa fa-map-marker me-3 mt-1"></i>
+                                    <span>Manchester St 123-78B, Random 7D, UK</span>
+                                </li>
+                                <li class="d-flex mb-3">
+                                    <i class="fa fa-phone me-3 mt-1"></i>
+                                    <span>+46 123 456 789</span>
+                                </li>
+                                <li class="d-flex mb-3">
+                                    <i class="fa fa-headphones me-3 mt-1"></i>
+                                    <span>+37 431 456 789</span>
+                                </li>
+                                <li class="d-flex mb-3">
+                                    <i class="fa fa-envelope me-3 mt-1"></i>
+                                    <span>hello@sitename.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="ratio ratio-21x9">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3642.3314514094354!2d32.89018481862768!3d24.089836741832286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1436650588f76b2d%3A0xb80c0578b7f04f97!2zS2luZyBKYW1haWNhIHJlc3RhdXJhbnQgJiBDYWZlIGFuZCBicmVha2Zhc3QgKCBBeW1hbiBqYW1haWNhICkg2KfZitmF2YYg2KzYp9mF2YrZg9in!5e0!3m2!1sar!2seg!4v1745851638458!5m2!1sar!2seg"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h4>About us</h4>
+                            <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                                consectetur. I am
+                                text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                                consectetur.
+                            </p>
+                            <p>We are the champions! We are the most amazing theme of all time, yeah.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h4>Why we are special?</h4>
+                            <ul>
+                                <li>Our magical recipe.</li>
+                                <li>We care about environment.</li>
+                                <li>We are trusted by hundreds of clients.</li>
+                                <li>Social media loves us!</li>
+                                <li>This list is super easy to create.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h4>Opening Hours</h4>
+                            <ul>
+                                <li>Monday 10AM - 9PM</li>
+                                <li>Tuesday 10AM - 9PM</li>
+                                <li>Wednesday 10AM - 9PM</li>
+                                <li>Thursday 10AM - 10PM</li>
+                                <li>Friday 10AM - 10PM</li>
+                                <li>Weekends 10AM - 11PM</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="footer-widget">
+                            <h4>Contact Details</h4>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> Manchester Road 123-78B, Silictown 7854MD, Great
+                                    Country</li>
+                                <li><i class="fa fa-phone"></i> <a href="tel:+46123456789">+46 123 456 789</a></li>
+                                <li><i class="fa fa-envelope"></i> <a
+                                        href="mailto:hello@sitename.com">hello@sitename.com</a></li>
+                                <li><i class="fa fa-globe"></i> <a
+                                        href="http://www.sitename.com">http://www.sitename.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-image d-flex justify-content-center">
+                    <img src="../../../assets/images/footer.png" alt="Engage Bakery">
+                </div>
+                <p class="copyright d-flex justify-content-center">
+                    Copyright &copy; <span id="current-year"></span>. Family Bakery All rights reserved.
+                </p>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        document.getElementById('current-year').textContent = new Date().getFullYear();
+                    });
+                </script>
+
+                <div class="social-icons">
+                    <a href="#" class="icon-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="icon-google-plus"><i class="fa fa-google-plus"></i></a>
+                    <a href="#" class="icon-linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="icon-twitter"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
